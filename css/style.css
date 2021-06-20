@@ -1,0 +1,72 @@
+body { font-family: 'Roboto', sans-serif;;
+    
+    color: brown;
+    background-color: rgba(193, 193, 221, 0.281);
+    
+
+}
+.main:hover { color: beige;
+    border: chocolate; background-color: lightcoral;
+
+
+}
+
+a { 
+    color: teal;
+    font-size: 10px;
+    text-decoration:none;
+    text-transform:lowercase;
+    margin:20px;}
+    a:hover{
+        font-size: 20px;
+        color: blueviolet;
+        text-transform: capitalize;
+    }
+
+h1 { 
+    font-size:100px;
+    width: 100px;
+    height: 0spx;
+   background: hotpink;
+   text-shadow: 2px 2px 3px black;
+   text-transform:inherit; 
+
+
+}
+img {
+    width: 40vw;
+    height: 80vh; 
+}
+section {
+    color: indigo;
+    background: lightcoral;
+}
+.two  {
+    font-size: 20px;
+    align-self:right;
+    text-align: left;
+    padding:20px ;
+    border-top: khaki;
+    margin:10px;
+    background-color: rgb(255, 71, 194);
+}
+input{
+    font-size: 100px;
+    height: 20px;
+    background-color: violet;
+}
+.main{
+    grid-row: ;
+}
+textarea { font-size: 50px;
+}
+button {font-size: inherit;
+font-family: sans-serif;
+color: red;
+background-color: rgb(255, 71, 194); 
+font-style: italic;
+}
+footer {
+    font-size: 30px;
+    font-weight:700;
+}

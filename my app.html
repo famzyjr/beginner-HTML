@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>my app</title>
+    
+     <!-- google font --> 
+     
+
+
+    <link rel="stylesheet" href="./my app_files/style.css"><link rel="preconnect" href="https://fonts.gstatic.com/"><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap&amp;_cacheOverride=1624177214111" rel="stylesheet"></head>
+    <body>
+        <i class="fas fa-home"></i>
+    <div id="header"> 
+        <a href="http://127.0.0.1:5500/#">About</a>
+        <a href="http://127.0.0.1:5500/#">profile</a>
+        <a href="http://127.0.0.1:5500/#contact">Contact</a>
+        <a href="http://google.com/">google</a>
+    </div>
+    <h1 style="border: 40px;"> HELLO WORLD!! </h1>
+    <p class="paragragh">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia incidunt soluta architecto magni ipsam, dolorem provident laborum laboriosam culpa dolorum! Sed impedit tempora aliquam quisquam sunt ea, dolorum voluptas incidunt ut similique obcaecati odio earum inventore id reprehenderit dignissimos harum corporis vitae vero consectetur expedita blanditiis ipsam suscipit ipsa? Amet.
+    </p>
+<img src="./my app_files/LEAF.jpg" alt="">
+<section><iframe width="200" height="200" src="./my app_files/olJOZp57FWM.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</section>
+    <div class="two">
+        <h3 id="contact"> CONTACT INFORMATION</h3>
+            <form>
+               <label>Full Name</label>  <input type="text" name="full name=">
+            <label> Home Address</label> <input type="text" address="Home Address=">
+    <label>Email</label> <input type="text" email="email=">
+         
+         <label>Phone Number </label><input type="text" phone="" number="phone number=">
+<textarea>Tell US About You
+             "message" 
+         </textarea>
+         <br>
+         <button>
+             <type="submit">submit
+         </type="submit"></button>
+         
+             </form>
+        </div>
+        <footer> <strong> contact: email: ogunyade.kehinde@gmail.com, phone: +2349032341763</strong></footer>
+
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
